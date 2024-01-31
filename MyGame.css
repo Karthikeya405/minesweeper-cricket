@@ -1,0 +1,105 @@
+p {
+  text-align: center;
+}
+
+#header {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 40px;
+  color:rgb(255, 89, 38);
+}
+
+#StartButton {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  background-color: rgb(47, 84, 250);
+  border-color: rgb(47, 84, 250);
+  border-style: solid;
+  border-radius: 6px;
+  border-top: 10px;
+  color: white;
+  height: 40px;
+  width: 400px;
+  transition: 0.2s;
+}
+
+#StartButton:hover {
+  cursor: pointer;
+  background-color: green;
+  font-size: 35px;
+  color: rgb(253, 254, 254);
+  height: 60px;
+  width: 450px;
+  align-items: center;
+}
+
+.background-image {
+  background-color: rgba(0,0,0,0.2);
+  background-image: url("Background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainbody {
+  display: grid;
+  grid-template-columns: 700px 700px;
+  row-gap: 4px;
+}
+
+#ScoreTemplate1, #ScoreTemplate2 {
+  font-family: 'Aladin', cursive;
+  font-size: 40px;
+  flex: 1;
+  background-color: lightgreen;
+}
+
+.ScoreCard {
+  font-family: 'Aladin', cursive;
+  font-size: 40px;
+  background-color: lightgreen;
+}
+
+#buttondiv {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#ground {
+  width: 700px;
+}
+
+.grid-container {
+  background-color: rgb(47, 219, 250);
+  display: grid;
+  width: 700px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 9px;
+  border: 9px solid rgb(47, 219, 250);
+  border-radius: 6px;
+}
+
+.grid-container:hover {
+  cursor: pointer;
+}
+
+.grid-item {
+  font-size: 30px;
+  font-family: 'Akaya Kanadaka', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+  color: white;
+}
+
+.revealed {
+  background-color: lightgoldenrodyellow;
+  color: black;
+}
+
+.grid-item:hover {
+  box-shadow: 5px 5px 3px black;
+  transition: box-shadow 0.3s;
+}
